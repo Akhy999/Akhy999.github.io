@@ -151,7 +151,8 @@ header .info {
 }
 .wrapperHeader{
     width:100%;
-    background-color:#eee;
+    /* background-color:#fbceb1; */
+    background-color: #eee;
 }
 
 .wrapper{
@@ -278,4 +279,54 @@ footer {
         margin-left: 0;
         margin-right: 0;
     }
+}
+
+/* Project specific */
+.project-container {
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+.project-wrapper .project-container:hover {
+    /* background-color: #fbceb1; */
+    background-color: #eee;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.project-image {
+    flex: 1;
+    min-width: 100px;
+    vertical-align: middle;
+}
+.project-content {
+    flex: 5;
+    padding-left: 20px;
+}
+.project-row {
+    display: flex;
+    justify-content: space-between;
+}
+.project-row-title {
+    flex: 1;
+    font-weight: 700;
+}
+.project-row-timeline {
+    flex: 1;
+    text-align: right;
+}
+.project-guide-info {
+    flex:1;
+    margin-top: 5px;
+}
+.project-additional-info {
+    flex:1;
+    margin-top: 5px;
+    text-align: right;
+}
+.project-points {
+    margin-top: 10px;
+    list-style-type: disc;
+    margin-left: 10px;
+}
+.project-points li {
+    margin-top: 5px;
 }

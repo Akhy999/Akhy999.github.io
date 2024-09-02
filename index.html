@@ -23,6 +23,9 @@
                     <p class="name" style="text-align: center;">
                       Abhishek Sureddy
                     </p>
+                    <p style="text-align:center">
+                        Student Researcher @<a href="https://www.meta.com/">Meta</a> | Experienced Quant <a href="https://www.morganstanley.com/">@MorganStanley</a> | MS CS student @<a href="https://www.umass.edu/">Umass Amherst</a>
+                    </p>
                     <!-- <br> -->
                     <p style="text-align:center">
                       <a href="mailto:sureddy1abhishek@gmail.com">Email</a> &nbsp;/&nbsp;
@@ -291,7 +294,178 @@
                 </tbody></table> -->
             </div>
             <div class="projects js-projects hide" style="display: none;">
-                <!-- <h1>projects and research</h1> -->
+                
+                    <div class="project-wrapper">
+                        <div class="project-container">
+                            <div class="project-image">
+                                <!-- Replace with actual image source -->
+                                <img src="./static/img/llm-sample.webp" alt="Project Image" style="width: 100%; height: auto;">
+                            </div>
+                            <div class="project-content">
+                                <div class="project-row">
+                                    <div class="project-row-title">
+                                        <span class="bold">LLM Alignment Towards Safety and Helpfulness</span>
+                                    </div>
+                                    <div class="project-row-timeline">
+                                        <span>Feb 2024 -- Jun 2024</span>
+                                    </div>
+                                </div>
+                                <div class="project-row">
+                                    <div class="project-guide-info">
+                                        <span>Guide: <a href="https://people.cs.umass.edu/~miyyer/">Dr. Mohit Iyyer</a></span>
+                                    </div>
+                                    <div class="project-additional-info">
+                                        <span> <a href="#">[Code]</a></span> <span> <a href="#">[Report]</a></span>
+                                    </div>
+                                </div>
+                                
+                                <ul class="project-points">
+                                    <li>Successfully improved the alignment and safety of the LLaMA-2-7B language model by 40%. This was achieved through a 
+                                        combination of techniques, including Supervised Fine-Tuning (SFT), Reward Ranked Fine Tuning (RAFT), 
+                                        Direct Preference Optimization (DPO), and knowledge distillation. These methods were meticulously integrated 
+                                        to align the model's outputs with human values and ethical considerations while ensuring that the model adheres to safety guidelines, 
+                                        reducing the risk of harmful or biased outputs.</li>
+                                    <!-- <li>Increased the alignment and safety of LLaMA-2-7B by 40% using SFT, RAFT, DPO, and distillation techniques.</li> -->
+                                    <li>Employed Parameter Efficient Fine-Tuning(PEFT) methods like Low Rank Adaptation (LoRA) and QLoRA to fine-tune LLMs with less than 0.5% of total parameters.</li>
+                                    <li>Implemented novel evaluation tasks like LLM as a Judge with sub-claim recall to evaluate model alignment, Curated one word answer questions to evaluate exact string match recall, Helpfulness MCQs and Safety MCQs .</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                <!-- RL project -->
+                    <div class="project-wrapper">
+                        <div class="project-container">
+                            <div class="project-image">
+                                <!-- Replace with actual image source -->
+                                <img src="./static/img/llm-sample.webp" alt="Project Image" style="width: 100%; height: auto;">
+                            </div>
+                            <div class="project-content">
+                                <div class="project-row">
+                                    <div class="project-row-title">
+                                        <span class="bold">Deep RL Algorithms Implementation</span>
+                                    </div>
+                                    <div class="project-row-timeline">
+                                        <span>Oct 2023 -- Dec 2023</span>
+                                    </div>
+                                </div>
+                                <div class="project-row">
+                                    <div class="project-guide-info">
+                                        <span>Guide: <a href="https://people.cs.umass.edu/~bsilva/">Dr. Bruno Castro da Silva</a></span>
+                                    </div>
+                                    <div class="project-additional-info">
+                                        <span><a href="#">[Code]</a></span> <span><a href="#">[Report]</a></span>
+                                    </div>
+                                </div>
+                                
+                                <ul class="project-points">
+                                    <li>Implemented Reinforce with baseline, Semi-Gradient N-step SARSA, and Deep Q-Learning algorithms.</li>
+                                    <li>Incorporated neural networks for policy and value functions.</li>
+                                    <li>Conducted comprehensive evaluations of these algorithms on Cartpole, Acrobot, and custom Autonomous toy car environments, performing in-depth analysis.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-wrapper">
+                        <div class="project-container">
+                            <div class="project-image">
+                                <!-- Replace with actual image source -->
+                                <img src="./static/img/leapp-ai.avif" alt="Leapp.ai Image" style="width: 100%; height: auto;">
+                            </div>
+                            <div class="project-content">
+                                <div class="project-row">
+                                    <div class="project-row-title">
+                                        <span class="bold">Leapp.ai: Customized Learning Plan Generation using AI</span>
+                                    </div>
+                                    <div class="project-row-timeline">
+                                        <span>Jun 2023 - Oct 2023</span>
+                                    </div>
+                                </div>
+                                <div class="project-row">
+                                    <div class="project-guide-info">
+                                        <span>Product link: <a href="https://www.producthunt.com/products/leapp-ai">https://www.producthunt.com/products/leapp-ai</a></span>
+                                    </div>
+                                    <div class="project-additional-info">
+                                        <!-- Add additional links if available -->
+                                    </div>
+                                </div>
+                                <ul class="project-points">
+                                    <li>Created Leapp, a comprehensive web tool using advanced tech to facilitate personalized user learning plans.</li>
+                                    <li>Implemented features like content streaming, collaborative sharing, and exploring public learning plans.</li>
+                                    <li>Used prompt engineering to boost ChatGPT's output quality, elevating user satisfaction and engagement.</li>
+                                    <li>Attained impressive user adoption: 10,000+ users, 1000+ learning plans, within 2 months of initial launch.</li>
+                                    <li>Consistently gathered user feedback, iterated features for enhanced experience, and fueled growth.</li>
+                                    <li><strong>Skills:</strong> Quart (Asyncio version of Flask, Python), Angular, ChatGPT, AWS (DynamoDb, LightSail, Cognito)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-wrapper">
+                        <div class="project-container">
+                            <div class="project-image">
+                                <!-- Replace with actual image source -->
+                                <img src="./static/img/knibble-ai.avif" alt="Knibble.ai Image" style="width: 100%; height: auto;">
+                            </div>
+                            <div class="project-content">
+                                <div class="project-row">
+                                    <div class="project-row-title">
+                                        <span class="bold">Knibble.ai: Question Answering Chatbot on Custom Knowledge Base</span>
+                                    </div>
+                                    <div class="project-row-timeline">
+                                        <span>Mar 2023 -- Jul 2023</span>
+                                    </div>
+                                </div>
+                                <div class="project-row">
+                                    <div class="project-guide-info">
+                                        <span>Product link: <a href="https://www.producthunt.com/products/knibble-ai">https://www.producthunt.com/products/knibble-ai</a></span>
+                                    </div>
+                                    <div class="project-additional-info">
+                                        <!-- Add any additional info here, if needed -->
+                                    </div>
+                                </div>
+                                <ul class="project-points">
+                                    <li>Developed Knibble, an innovative generative AI-based web tool to create a chatbot on a custom knowledge base.</li>
+                                    <li>Enabled seamless processing of diverse document formats (PDFs, URLs, text files) into a vector DB.</li>
+                                    <li>Utilized Langchain for efficient text analysis, resulting in optimized chatbot performance and course content.</li>
+                                    <li>Implemented an embeddable chatbot for websites, Notion pages, and web crawlers, thus enhancing user engagement.</li>
+                                    <li>Achieved 1000+ users in 2 months, gaining recognition as a top 1% tool for App Sumo Select Class of 2023.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-wrapper">
+                        <div class="project-container">
+                            <div class="project-image">
+                                <!-- Replace with actual image source -->
+                                <img src="./static/img/ddp.png" alt="Network Topology Reconstruction" style="width: 100%; height: auto;">
+                            </div>
+                            <div class="project-content">
+                                <div class="project-row">
+                                    <div class="project-row-title">
+                                        <span class="bold">Network Topology Reconstruction</span>
+                                    </div>
+                                    <div class="project-row-timeline">
+                                        <span>Mar 2020 - Jul 2021</span>
+                                    </div>
+                                </div>
+                                <div class="project-row">
+                                    <div class="project-guide-info">
+                                        <span>Guide: <a href="https://biotech.iitm.ac.in/faculty/nirav-p-bhatt/">Dr. Nirav P Bhatt</a>, Master's thesis</span>
+                                    </div>
+                                </div>
+                                <ul class="project-points">
+                                    <li>Used text mining techniques to identify the entities and determine the relation between them.</li>
+                                    <li>Generated a Pre-train dataset consisting of <strong>20 million sentences</strong> by parsing 2M PubMed abstracts.</li>
+                                    <li>Finetuned <strong>BioBert</strong> and <strong>BERT</strong> on the generated data and used it for NER and Relation Extraction tasks on various datasets like NCBI, GAD, DDI, BioRelEx, BioInfer.</li>
+                                    <li>Ideated and developed the pipeline to generate a knowledge graph from the given text articles.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
 <!--                 <table>
                     <tbody><tr>
                         <td class="title"><span class="bold">1. poleasy: a smart underwriting system</span>, be project (2021) 
